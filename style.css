@@ -167,3 +167,68 @@ body{
     top: 350px;
     margin-left: 420px;
 }
+
+@media screen and (max-width:950px){
+    .pic1 img{
+        width: 350px;
+    }
+    
+    .navbar nav{
+        display: none;
+    }
+
+    .line{
+        display: none;
+    }
+
+    .navbar img{
+        width: 80px;
+        margin-left: 30px;
+    }
+
+    .heading h1{
+        font-size: 80px;
+        margin-left: 30px;
+        top: 400px;
+    }
+
+    .heading h2{
+        font-size: 80px;
+        margin-left: 30px;
+        top: 480px;
+    }
+
+    .sub-title{
+        top: 510px;
+        margin-left: 265px;
+        font-size: 13px;
+    }
+
+    .icons{
+        top: 120px;
+        margin-left: 357px;
+    }
+
+    .button button{
+        top: 600px;
+        margin-left: 60px;
+    }
+
+    .bottom{
+        margin-top: 20px;
+        top: 830px;
+        margin-left: 20px;
+    }
+
+    .bottom p{
+       margin-bottom: 10px;
+    }
+
+    .list{
+        position: absolute;
+        top: 680px;
+        margin-left: 30px;
+    }
+
+
+}
